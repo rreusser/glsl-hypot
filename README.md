@@ -6,7 +6,7 @@
 
 ## Introduction
 
-`sqrt(x * x + y * y)` is easy, but it's subject to overflow. This function returns the length of a vec2 while avoiding overflow/underflow. Most of the time, you're almost certainly fine without this.
+`sqrt(x * x + y * y)` is easy, but it's subject to overflow and underflow in an environment with already limited precision. This function returns the length of a vec2 while avoiding overflow/underflow. Most of the time though, you're almost certainly fine without this.
 
 ## Usage
 
