@@ -5,7 +5,7 @@ float hypot (vec2 z) {
   t = min(x, y);
   x = max(x, y);
   t = t / x;
-  return x * sqrt(1.0 + t * t);
+  return (z.x == 0.0 && z.y == 0.0) ? 0.0 : x * sqrt(1.0 + t * t);
 }
 
 #pragma glslify: export(hypot)
