@@ -1,8 +1,17 @@
 {
   "name": "glsl-hypot",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The hypot function in GLSL",
   "glslify": "index.glsl",
   "author": "Ricky Reusser",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "glsl",
+    "glslify",
+    "complex",
+    "hypot",
+    "length",
+    "norm",
+    "webgl"
+  ],
 }
